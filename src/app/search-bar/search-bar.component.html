@@ -1,0 +1,6 @@
+<!-- <input (input) = "term = $event.target.value"/>   -->
+<!-- we can get rid of event handler if we use this syntax -->
+
+<form (submit) = "onFormSubmitHandler($event)">
+    <input (input) = "onInputHandler($event.target.value)"/>
+</form>

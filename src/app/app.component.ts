@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'api-demo';
+
+  onSearchTerm(term: string) {
+    console.log("Here is the term", term);
+  }
 }
